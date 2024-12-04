@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:padding="20dp"
+    android:background="@color/purple">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="@string/login"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:src="@drawable/my_picture" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/login_username"
+        android:id="@+id/etUsername"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/login_password"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/login_button"
+        android:id="@+id/btnLogin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/login_singup"
+        android:id="@+id/btnSignup"/>
+
+
+</LinearLayout>

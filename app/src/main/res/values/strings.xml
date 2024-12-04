@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Engineering App</string>
+
+    <string name="login">Application Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_singup">Dont have an Account? Signup Here</string>
+
+    <string name="signup">Signup</string>
+    <string name="signup_first_name">Enter First Name</string>
+</resources>
